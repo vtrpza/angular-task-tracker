@@ -7,6 +7,7 @@ import { ButtonComponent } from './components/button/button.component';
 import { TasksComponent } from './components/tasks/tasks.component';
 import { TaskItemComponent } from './components/task-item/task-item.component';
 import { IconModule } from '@ant-design/icons-angular';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { IconModule } from '@ant-design/icons-angular';
   ],
   imports: [
     BrowserModule,
-    IconModule
+    IconModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
