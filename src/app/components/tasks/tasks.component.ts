@@ -17,7 +17,7 @@ export class TasksComponent implements OnInit {
     .subscribe((tasks) => this.tasks = tasks);
   }
 
-  onDeleteTask(task: Task) {
+  onDeleteTask(task: Task): void {
     this.taskService
     .deleteTask(task)
     .subscribe(() => (
@@ -25,6 +25,11 @@ export class TasksComponent implements OnInit {
         t.id !== task.id
       ))
     ));
+  }
+
+  toggleReminder(task: Task): void {
+    task.reminder = !task.reminder;
+    this.taskService.updateTaskReminder(task).subscribe()
   }
 
 }
