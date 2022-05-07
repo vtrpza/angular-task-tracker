@@ -1,8 +1,8 @@
 {
   "tasks": [
     {
-      "text": "Ver meu amorzinho",
-      "day": "amanhã as 11 horas",
+      "text": "Angular is harder",
+      "day": "More to it at 12",
       "reminder": true,
       "id": 1
     }
