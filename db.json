@@ -1,3 +1,10 @@
 {
-  "tasks": []
+  "tasks": [
+    {
+      "text": "Ver meu amorzinho",
+      "day": "amanhã as 11 horas",
+      "reminder": true,
+      "id": 1
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 <div [ngClass]="{reminder: task?.reminder}" class="task" (dblclick)="onToggle(task!)">
     <h3>
         {{task?.text}}
-        <i (click)="onDelete(task!)" [ngStyle]="{'color': 'red'}" antIcon type="close" theme="outline"></i>
+        <i (click)="onDelete(task!)" [ngStyle]="{'color': 'red'}" antIcon type="close-square" theme="outline"></i>
     </h3>
     <p>{{task?.day}}</p>
 </div>

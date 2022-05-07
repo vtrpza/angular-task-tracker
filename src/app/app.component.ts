@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IconService } from '@ant-design/icons-angular';
-import { CloseOutline } from '@ant-design/icons-angular/icons';
+import { CloseSquareOutline } from '@ant-design/icons-angular/icons';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +9,7 @@ import { CloseOutline } from '@ant-design/icons-angular/icons';
 })
 export class AppComponent {
   constructor(private _iconService: IconService) {
-    this._iconService.addIcon(...[ CloseOutline ]);
+    this._iconService.addIcon(...[ CloseSquareOutline ]);
     this._iconService.twoToneColor = { primaryColor: '#1890ff' };
   }
 }
