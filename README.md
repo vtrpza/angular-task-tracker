@@ -1,7 +1,5 @@
 # This is a simple project to learn and test Angular 12
 
-# Angular Task Tracker App
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.1.
 
 ## Development server
